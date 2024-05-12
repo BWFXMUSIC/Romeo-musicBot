@@ -1,13 +1,14 @@
+import asyncio
 import os
+import random
 import re
 import textwrap
-import random
 import aiofiles
 import aiohttp
 from PIL import (Image, ImageDraw, ImageEnhance, ImageFilter,
                  ImageFont, ImageOps)
 from youtubesearchpython.__future__ import VideosSearch
-
+import numpy as np
 from config import MUSIC_BOT_NAME, YOUTUBE_IMG_URL
 
 
